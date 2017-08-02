@@ -1,2 +1,1 @@
-# gcd_project
-Coursera Getting and Cleaning Data Projectr
+# Coursera Getting and Cleaning Data Project
