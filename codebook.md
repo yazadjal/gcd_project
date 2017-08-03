@@ -1,5 +1,4 @@
-
-<b><strong>Code book</b></strong>
+<b>CODEBOOK</b>
 
 This codebook will first describe the variables that were in the UCI HAR dataset given (can be downloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), the transformations performed on the data, and the data in the final_data.txt file which is the complete output file created for the project. 
 
