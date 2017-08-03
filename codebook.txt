@@ -40,7 +40,7 @@ feature: collapses the column variables from the updated all_data table into one
 
 observation: the relevant sensor signals obtained from merging the X_train and X_test datasets in the UCI HAR dataset, these also include the calculated sensor signal averages as described in the subject and feature column descriptions above. 
  
-According to Hadley WickhamÕs seminal article ÒTidy DataÓ, in tidy data:
+According to Hadley Wickham's seminal article "Tidy Data", in tidy data:
 
 1. Each variable forms a column.
 2. Each observation forms a row.
