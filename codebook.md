@@ -1,5 +1,5 @@
 
-<b><u>Code book</b></u>
+<b><strong>Code book</b></strong>
 
 This codebook will first describe the variables that were in the UCI HAR dataset given (can be downloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), the transformations performed on the data, and the data in the final_data.txt file which is the complete output file created for the project. 
 
@@ -20,7 +20,7 @@ The files in the UCI HAR dataset include:
 
 The train and test folders each also contained an 'Inertial Signals' folder which was ignored. 
 
-<b>Transformations:</b>
+<b>Transformations</b>
 
 After downloading the zip and reading the relevant files into R using read.table(), the training and test datasets were merged using rbind() creating three tables, one each for the x-data, y-data, and subject data. These three tables were then merged using cbind() to create <b><i>initial_data</b></i>, which satisfies the requirement of Step 1 to merge all the data sets and create one data set.
 
