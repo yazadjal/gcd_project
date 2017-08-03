@@ -32,11 +32,11 @@ The subject average column with the mean of subject was created by using mutate(
 
 Finally, gather() was used to create a tidy data set called <i>final_data</i> and the file was saved as final_data.text. final_data has four variables, each in its own column: subject, activity, feature, and observation. 
 
-<b>subject</b>: Each row identifies the subject who performed the relevant activity. Its range is from 1 to 30 and ÒALLÓ which is the average of the relevant feature for all subjects. 
+<b>subject</b>: Each row identifies the subject who performed the relevant activity. Its range is from 1 to 30. An additional variable "ALL" which is the average of the relevant feature for all subjects is added. 
 
-<b>activity</b>: Describes each activity performed using the descriptive labels from Òactivity_lables.txtÓ in the UCI HAR dataset. The activities are: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING.
+<b>activity</b>: Describes each activity performed using the descriptive labels from "activity_labels.txt" in the UCI HAR dataset. The activities are: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING.
 
-<b>feature</b>: collapses the column variables from the updated all_data table into one feature variable. The original feature list and details are in the UCI HAR database. The modified feature names and their original equivalents are in this repo as Ònamechanges.csvÓ. These only include the features with ÒmeanÓ or ÒstdÓ in their names. An additional variable called Òsubject_avgÓ which is the average of that subject over all variables is added. 
+<b>feature</b>: collapses the column variables from the updated all_data table into one feature variable. The original feature list and details are in the UCI HAR database. The modified feature names and their original equivalents are in this repo as "namechanges.csv". These only include the features with "mean" or "std" in their names. An additional variable called "subject_avg" which is the average of that subject over all variables is added. 
 
 <b>observation</b>: the relevant sensor signals obtained from merging the X_train and X_test datasets in the UCI HAR dataset, these also include the calculated sensor signal averages as described in the subject and feature column descriptions above. 
  
