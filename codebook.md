@@ -4,8 +4,8 @@
 This codebook will first describe the variables that were in the UCI HAR dataset given (can be downloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), the transformations performed on the data, and the data in the final_data.txt file which is the complete output file created for the project. 
 
 <b>Original Data</b>
-The files in the UCI HAR dataset include:
 
+The files in the UCI HAR dataset include:
 - 'README.txt'
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
