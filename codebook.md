@@ -1,9 +1,9 @@
 
-**Code book 
+##Code book 
 
 This codebook will first describe the variables that were in the UCI HAR dataset given (can be downloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), the transformations performed on the data and the data in the final_data.txt file which is the complete output file created for the project. 
 
-Original Data
+##Original Data
 The files in the UCI HAR dataset include:
 
 - 'README.txt'
@@ -16,7 +16,7 @@ The files in the UCI HAR dataset include:
 - 'test/X_test.txt': Test set.
 - 'test/y_test.txt': Test labels
 
-- 'train/subject_train.txt' & Ôtrain/subject_test.txt: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+- 'train/subject_train.txt' & 'train/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
 The train and test folders each also contained an ÒInertial SignalsÓ folder which was ignored. 
 
